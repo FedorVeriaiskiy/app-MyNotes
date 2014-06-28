@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>MyNotes</title>
+    <link rel="stylesheet" href="style/styles.css">
+
+    <script src='scripts/jquery-1.8.0.js' type='text/javascript'></script>
+    <script src='scripts/jquerymx-3.2.custom.js' type='text/javascript'></script>
+    <script src='scripts/jquery.view.ejs.js' type='text/javascript'></script>
+    <script src='scripts/config.js' type='text/javascript'></script>
+</head>
+<body>
+<div class="main">
+    <div class="app-logo">myNotes</div>
+    <div class="login-block">
+        <h2>
+            Hello!
+        </h2>
+        <div class="text-authorize">Authorize please</div>
+        <br/>
+        <form>
+            Login<input type="text" id="login-val"/>
+            Password<input type="password" id="pwd-val"/>
+            <button id="send-login-data">Enter</button>
+        </form>
+        <div class="user-login-status"></div>
+    </div>
+    <div class="notes-block">
+        <div class="notes-list-area" droppable>
+            <div class="user-title"></div>
+            <label for='note-title-text'>
+                Enter a note title:<br/>
+                <input type="text" id="note-title-text" size="20"/>
+            </label>
+            <button class="btn-create-note">Create note</button>
+            <button class="btn-enter-note">Add a bookmark</button>
+        </div>
+        <div class="notes-editing-area" droppable>
+        </div>
+        <button class="btn-logout">Log out</button>
+        <button class="btn-signout">Sign out</button>
+    </div>
+
+    <script src='view/view.js' type='text/javascript'></script>
+    <script src='controller/controller.js' type='text/javascript'></script>
+    <script src='model/model.js' type='text/javascript'></script>
+</div>
+</body>
+</html>
