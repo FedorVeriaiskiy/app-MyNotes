@@ -1,4 +1,4 @@
-MyNotes client one-page application
+MyNotes one-page application
 
 Author:
 Fedor Veriaiskiy
