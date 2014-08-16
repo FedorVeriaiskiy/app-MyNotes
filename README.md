@@ -1,4 +1,4 @@
-MyNotes - one-page application
+MyNotes - one-page application prototype
 
 Author:
 Fedor Veriaiskiy
